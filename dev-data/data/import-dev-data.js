@@ -12,7 +12,7 @@ const Review = require('./../../models/reviewModel');
 const DB = 'mongodb://127.0.0.1:27017/natours';
 
 
-console.log(DB);
+// console.log(DB);
 mongoose
 .connect(DB)
 .then(() => console.log('DB connection successful'))
